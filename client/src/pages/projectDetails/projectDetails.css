@@ -1,0 +1,88 @@
+.projectDetails {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 100px;
+}
+
+.projectDetailsTitle {
+	color: #0e76a8;
+}
+
+.projectDetailsDiv {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #ddd;
+	padding: 30px;
+}
+
+.projectInfo {
+	position: relative;
+}
+
+.projectInfo button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 500;
+	transition: all 0.5s ease;
+}
+
+.projectInfo button:hover {
+	transform: scale(1.07);
+}
+
+.projectName {
+	color: teal;
+}
+
+.projectStatus {
+	margin-top: 20px;
+}
+
+.clientInfo {
+	margin: 40px 0;
+}
+
+.clientInfo h2 {
+	color: teal;
+}
+
+.infoDiv {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.infoDiv li {
+	border: 1px solid #ddd;
+	padding: 4px;
+}
+
+.userDetails {
+	display: flex;
+	align-items: center;
+	margin: 5px 0;
+}
+
+.userDetails i {
+	color: #0e76a8;
+	margin-right: 6px;
+}
+
+@media only screen and (max-width: 700px) {
+	.projectDetails {
+		padding: 10px;
+	}
+	.projectDetailsDiv {
+		padding: 20px;
+	}
+
+	.projectDetailsTitle {
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,18 @@
+.projectUpdate h2 {
+	color: teal;
+}
+
+.updateBtn {
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	background-color: #0e76a8;
+	color: white;
+	width: 100px;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.updateBtn:hover {
+	transform: scale(1.07);
+}

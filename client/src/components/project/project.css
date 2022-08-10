@@ -1,0 +1,52 @@
+.project {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+	background-color: white;
+	padding: 20px;
+	border-radius: 8px;
+	width: 403px;
+	border: 1px solid rgb(179, 176, 176);
+}
+
+.projectTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.viewBtn {
+	border: none;
+	background-color: #0e76a8;
+	color: white;
+	padding: 6px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.status {
+	margin-right: 4px;
+}
+
+.completed {
+	font-weight: 700;
+	color: green;
+}
+
+.notStarted {
+	font-weight: 700;
+	color: gray;
+}
+
+.inProgress {
+	font-weight: 700;
+	color: orange;
+}
+
+@media only screen and (max-width: 700px) {
+	.project {
+		width: 100%;
+	}
+}

@@ -1,0 +1,85 @@
+.projectModal1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 10px 70px;
+}
+
+.projectModalContainer {
+	position: relative;
+	width: 90%;
+	background-color: white;
+	color: #333;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.top {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #0e76a8;
+}
+
+.cancel {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 24px;
+	cursor: pointer;
+}
+
+.line {
+	width: 100%;
+	color: 1px solid #ddd;
+	margin-top: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.formGroup {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+
+.formGroup label {
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.formGroup input {
+	padding: 8px;
+	font-size: 16px;
+}
+
+.formGroup input:focus {
+	outline: 1px solid #0e76a8;
+}
+
+.formGroup select {
+	padding: 8px;
+	font-size: 16px;
+}
+
+.submitBtn {
+	border: none;
+	padding: 8px;
+	width: inherit;
+	background-color: #0e76a8;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	margin-top: 30px;
+}

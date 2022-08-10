@@ -1,0 +1,51 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	padding: 10px 70px;
+}
+
+.title {
+	margin-bottom: 30px;
+	color: #0e76a8;
+}
+
+.modalContainer {
+	display: flex;
+	align-items: center;
+}
+
+.clientModal,
+.projectModal {
+	display: flex;
+	align-items: center;
+	margin-right: 16px;
+	padding: 6px;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.clientModal {
+	background-color: teal;
+}
+
+.projectModal {
+	background-color: crimson;
+}
+
+.clientModal i,
+.projectModal i {
+	margin-right: 2px;
+}
+
+@media only screen and (max-width: 953px) {
+	.home {
+		padding: 10px;
+	}
+
+	.title {
+		margin-bottom: 16px;
+		font-size: 28px;
+	}
+}

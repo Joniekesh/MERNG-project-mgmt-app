@@ -1,0 +1,22 @@
+.deleteBtn {
+	display: flex;
+	align-items: center;
+	border: none;
+	padding: 8px;
+	cursor: pointer;
+	background-color: crimson;
+	color: white;
+	width: 120px;
+	font-weight: bold;
+	align-self: flex-end;
+	transition: all 0.5s ease;
+	float: right;
+}
+
+.deleteBtn i {
+	margin-right: 2px;
+}
+
+.deleteBtn:hover {
+	transform: scale(1.07);
+}
