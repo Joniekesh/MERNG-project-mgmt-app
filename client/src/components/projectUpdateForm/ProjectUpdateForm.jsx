@@ -44,7 +44,7 @@ const ProjectUpdateForm = ({ project }) => {
 					<input
 						type="text"
 						placeholder="Project name"
-						value={name}
+						value={project.name}
 						onChange={(e) => setName(e.target.name)}
 					/>
 				</div>
@@ -53,13 +53,16 @@ const ProjectUpdateForm = ({ project }) => {
 					<input
 						type="text"
 						placeholder="Project Description"
-						value={description}
+						value={project.description}
 						onChange={(e) => setDescription(e.target.description)}
 					/>
 				</div>
 				<div className="formGroup">
 					<label>Status</label>
-					<select value={status} onChange={(e) => setStatus(e.target.value)}>
+					<select
+						value={project.status}
+						onChange={(e) => setStatus(e.target.value)}
+					>
 						<option value="new">New</option>
 						<option value="progress">In Progress</option>
 						<option value="completed">Completed</option>
