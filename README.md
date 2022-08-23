@@ -1,6 +1,9 @@
 # MERNG-project-mgmt-app
 This is a project management app built with Mongoose, Express, React, Node.JS, GraphQL (MERNG) technologies in addition to Apollo Client.
 
+![image](https://user-images.githubusercontent.com/73966666/186192822-0bd03997-46a2-497a-a9c3-6705d9e024e4.png)
+
+
 ![image](https://user-images.githubusercontent.com/73966666/186191812-ee16919c-42e6-4040-95f4-4fecb1ddb7da.png)
 
 
